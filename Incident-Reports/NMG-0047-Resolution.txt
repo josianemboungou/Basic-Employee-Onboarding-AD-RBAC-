@@ -1,0 +1,14 @@
+1.Jane resides in the Operations OU and not in the HR OU.
+2.Since she is a Payroll Specialist, she was supposed to be in the HR OU.
+3.She is currently a member of: Operations Users. She should be in : HR-Users.
+Bonus: She was added as an Operations Coordinator and she should be a Payroll Specialist.
+Note: We did not follow the least privilege here because she got accessed to Operations data while she was not supposed to.
+
+Ticket number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
+Root cause: This issue occurred because 3 things were done wrong: Jane was mistakenly added to the Operations OU, to the Operations Users Security Group and she has a wrong role (RBAC). This explains why she could not access HR information and her desktop was different from the rest of her co-workers.
+Fix applied:I moved Jane to the HR OU, placed into the HR-Users security group and updated her role to Payroll Specialist to avoid any issues in the future in regards to her access.
+Verification: I confirmed the issue is resolved by reviewing the OU, Security group and changing her role to Payroll Specialist. I have screenshots as a proof.
+Date resolved: 8/2/2026
+Resolved by: Josiane Mboungou
