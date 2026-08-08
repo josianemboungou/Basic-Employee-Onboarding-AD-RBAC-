@@ -2,11 +2,11 @@
 
 ## Problem Statement
 
-*Before this project, the fictional company named "Northstar Medical Group" had its IT operations being run by a MSP because they did not have the leadership or money to do it themselves. Over time, the Active Directory became disorganized and difficult to manage. User accounts were created without consistent standards, access permissions were often incorrect or excessive, and departments lacked clear structure. Offboarding and onboarding were unreliable that former employees sometimes retained access for months, while new hires frequently waited days for basic access because no documented process existed. The lack of structure and documentation created a serious security and compliance risks.
+Before this project, the fictional company named "Northstar Medical Group" had its IT operations being run by a MSP because they did not have the leadership or money to do it themselves. Over time, the Active Directory became disorganized and difficult to manage. User accounts were created without consistent standards, access permissions were often incorrect or excessive, and departments lacked clear structure. Offboarding and onboarding were unreliable that former employees sometimes retained access for months, while new hires frequently waited days for basic access because no documented process existed. The lack of structure and documentation created a serious security and compliance risks.
 
 ## Solution Overview
 
-*The solution was to rebuild the Active Directory from scratch to create a secure and organized system. User accounts will follow clear standards; Organizational Units have been created to structure departments and RBAC is in place to enforce the least privilege access. All processes and incident resolutions are fully documented, so the environment remains understandable, auditable, and easy to operate.
+The solution was to rebuild the Active Directory from scratch to create a secure and organized system. User accounts will follow clear standards; Organizational Units have been created to structure departments and RBAC is in place to enforce the least privilege access. All processes and incident resolutions are fully documented, so the environment remains understandable, auditable, and easy to operate.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
