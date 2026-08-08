@@ -1,10 +1,12 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+
 *Before this project, the fictional company named "Northstar Medical Group" had its IT operations being run by a MSP because they did not have the leadership or money to do it themselves. Over time, the Active Directory became disorganized and difficult to manage. User accounts were created without consistent standards, access permissions were often incorrect or excessive, and departments lacked clear structure. Offboarding and onboarding were unreliable that former employees sometimes retained access for months, while new hires frequently waited days for basic access because no documented process existed. The lack of structure and documentation created a serious security and compliance risks.
+
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+
+*The solution was to rebuild the Active Directory from scratch to create a secure and organized system. User accounts will follow clear standards; Organizational Units have been created to structure departments and RBAC is in place to enforce the least privilege access. All processes and incident resolutions are fully documented, so the environment remains understandable, auditable, and easy to operate.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
@@ -26,5 +28,5 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Created OU with Security Groups
+* Diagnosed and resolved a multi-cause access issue (Wrong OU, wrong group membership and wrong Role)
